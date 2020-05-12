@@ -13,15 +13,15 @@
     <form action="">
         
         <label for="name">Nom</label>
-        <input type="text" class="name" id="idname" placeholder="Nom" onkeypress="checkLastname()">
+        <input type="text" class="name" id="idname" placeholder="Nom" onkeypress="checkLastname()" required>
         <span id="errorname"></span>
 
         <label for="firstname">Prénom</label>
-        <input type="text" class="firstname" id="idfirstname" placeholder="Prénom" onkeypress="checkLastfirstname()" >
+        <input type="text" class="firstname" id="idfirstname" placeholder="Prénom" onkeypress="checkLastfirstname()" required>
         <span id="errorfirstname"></span>
 
         <label for="number">Numéro Téléphone</label>
-        <input type="text" class="phone" placeholder="Téléphone">
+        <input type="text" class="phone" placeholder="Téléphone" required>
 
         <label for="date-command">Date Commande</label>
         <input type="text" placeholder="Commande" class="date">
@@ -36,11 +36,11 @@
     
 </div>
 
-    <script src="https://kit.fontawesome.com/a6ad6fac17.js" crossorigin="anonymous"></script>
-    <script src="js/cleave.js"></script>
+<script src="https://kit.fontawesome.com/2edc250389.js" crossorigin="anonymous"></script>
+<script src="js/cleave.js"></script>
     <script src="js/phone-type-formatter.fr.js"></script>
     <script src="js/main.js"></script>
-    
+
 
 
 </body>

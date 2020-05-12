@@ -41,7 +41,7 @@ new Cleave ('.firstname', {
 
 new Cleave('.phone', {
     phone: true,
-    phoneRegionCode: '{country}'
+    phoneRegionCode: 'fr'
 });
 
 
